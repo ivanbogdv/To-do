@@ -86,7 +86,7 @@ function doneTask(event) {
 function checkEmptyList() {
   if (tasks.length === 0) {
     const emptyListHTML = `<li id="emptyList" class="list-group-item empty-list">
-        <img src="./img/work.jpg" alt="Empty" width="300" class="mt-3">
+        <img src="./img/new-logo.jpg" alt="Empty" width="300" class="mt-3">
         <div class="empty-list__title">To-do list is empty</div>
     </li>`;
     taskList.insertAdjacentHTML("afterbegin", emptyListHTML);
